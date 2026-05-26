@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LK-Überführungsfahrten</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0d0d0d;
+color:white;
+line-height:1.6;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+background:#111;
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:1.4rem;
+font-weight:bold;
+color:#fff;
+}
+
+.btn{
+background:#d60000;
+color:white;
+padding:12px 20px;
+border-radius:6px;
+text-decoration:none;
+}
+
+.hero{
+height:90vh;
+background:
+linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.7)),
+url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1600');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+padding:40px;
+}
+
+.hero-content{
+max-width:700px;
+}
+
+h1{
+font-size:4rem;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:1.2rem;
+margin-bottom:30px;
+}
+
+.buttons{
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.secondary{
+background:transparent;
+border:1px solid white;
+}
+
+section{
+padding:70px 20px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:#171717;
+padding:25px;
+border-radius:10px;
+}
+
+form{
+display:grid;
+gap:15px;
+margin-top:30px;
+}
+
+input, textarea{
+padding:14px;
+background:#1a1a1a;
+border:1px solid #333;
+border-radius:6px;
+color:white;
+}
+
+textarea{
+min-height:120px;
+}
+
+footer{
+text-align:center;
+padding:30px;
+border-top:1px solid #222;
+}
+
+@media(max-width:768px){
+
+h1{
+font-size:2.2rem;
+}
+
+header{
+flex-direction:column;
+gap:15px;
+}
+
+.buttons{
+flex-direction:column;
+}
+
+.hero{
+padding:20px;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">LK-Überführungsfahrten</div>
+<a href="#kontakt" class="btn">Jetzt anfragen</a>
+</header>
+
+<section class="hero">
+<div class="hero-content">
+<h1>Professionelle Fahrzeugüberführungen in Bayern</h1>
+
+<p>
+Zuverlässig. Flexibel. Persönlich.
+</p>
+
+<div class="buttons">
+<a href="#kontakt" class="btn">
+Anfrage senden
+</a>
+
+<a
+href="https://wa.me/4917624286038"
+class="btn secondary">
+
+WhatsApp
+</a>
+</div>
+</div>
+</section>
+
+<section>
+<div class="services">
+
+<div class="card">
+<h3>Bayernweit</h3>
+<p>Überführungen in ganz Bayern.</p>
+</div>
+
+<div class="card">
+<h3>Zuverlässig</h3>
+<p>Sichere und pünktliche Fahrten.</p>
+</div>
+
+<div class="card">
+<h3>Flexible Termine</h3>
+<p>Individuelle Terminvereinbarung.</p>
+</div>
+
+</div>
+</section>
+
+<section>
+<h2>Über mich</h2>
+
+<p>
+LK-Überführungsfahrten steht für professionelle
+Fahrzeugüberführungen mit persönlichem Service,
+direkter Kommunikation und zuverlässiger Abwicklung.
+</p>
+</section>
+
+<section id="kontakt">
+
+<h2>Überführungsfahrt anfragen</h2>
+
+<form action="https://formspree.io/f/DEINE-ID" method="POST">
+
+<input type="text" placeholder="Name" required>
+
+<input type="email" placeholder="E-Mail-Adresse" required>
+
+<input type="text" placeholder="Telefonnummer">
+
+<input type="text" placeholder="Abholort">
+
+<input type="text" placeholder="Zielort">
+
+<textarea placeholder="Nachricht"></textarea>
+
+<button type="submit" class="btn">
+Anfrage senden
+</button>
+
+</form>
+
+<br>
+
+<p>📞 0176-24286038</p>
+<p>✉️ info-lkueberfuehrungen@web.de</p>
+
+</section>
+
+<footer>
+© 2025 LK-Überführungsfahrten
+</footer>
+
+</body>
+</html>
+<section id="impressum">
+<h2>Impressum</h2>
+
+<p>
+Angaben gemäß § 5 TMG
+</p>
+
+<p>
+LK-Überführungsfahrten<br>
+Inhaber: Luca Kreulinger<br>
+Ludwig-Biller-Straße 5<br>
+94505 Bernried
+</p>
+
+<p>
+Telefon: 0176-24286038<br>
+E-Mail: info-lkueberfuehrungen@web.de
+</p>
+
+<p>
+Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:<br>
+Luca Kreulinger
+</p>
+
+</section>
+<section id="datenschutz">
+
+<h2>Datenschutzerklärung</h2>
+
+<h3>1. Allgemeine Hinweise</h3>
+
+<p>
+Der Schutz Ihrer persönlichen Daten ist uns wichtig.
+Personenbezogene Daten werden vertraulich und entsprechend
+der gesetzlichen Datenschutzvorschriften behandelt.
+</p>
+
+<h3>2. Datenerfassung auf dieser Website</h3>
+
+<p>
+Wenn Sie uns per Kontaktformular Anfragen senden,
+werden Ihre Angaben inklusive der von Ihnen angegebenen
+Kontaktdaten zwecks Bearbeitung der Anfrage gespeichert.
+</p>
+
+<h3>3. Kontaktformular</h3>
+
+<p>
+Die Verarbeitung der eingegebenen Daten erfolgt ausschließlich
+zur Bearbeitung Ihrer Anfrage.
+</p>
+
+<h3>4. WhatsApp</h3>
+
+<p>
+Bei Kontaktaufnahme über WhatsApp gelten zusätzlich die
+Datenschutzbestimmungen von WhatsApp Ireland Limited.
+</p>
+
+<h3>5. Ihre Rechte</h3>
+
+<p>
+Sie haben jederzeit das Recht auf Auskunft,
+Berichtigung oder Löschung Ihrer gespeicherten Daten.
+</p>
+
+</section>

@@ -208,49 +208,42 @@ direkter Kommunikation und zuverlässiger Abwicklung.
 
 <h2>Überführungsfahrt anfragen</h2>
 
-<form action="https://formspree.io/f/xzdwwgwy" method="POST">
-
+<form name="kontakt" method="POST" data-netlify="true">
+<input type="hidden" name="form-name" value="kontakt">
 <input
 type="text"
 name="name"
 placeholder="Ihr Name"
 required
 >
-
 <input
 type="email"
 name="email"
 placeholder="E-Mail-Adresse"
 required
 >
-
 <input
 type="text"
 name="telefon"
 placeholder="Telefonnummer"
 >
-
 <input
 type="text"
 name="abholort"
 placeholder="Abholort"
 >
-
 <input
 type="text"
 name="zielort"
 placeholder="Zielort"
 >
-
 <textarea
 name="nachricht"
 placeholder="Ihre Nachricht"
 ></textarea>
-
 <button type="submit">
 Anfrage senden
 </button>
-
 </form>
 
 <br>
